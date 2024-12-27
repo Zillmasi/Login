@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+body,
+.log {
+  background-color: rgb(36, 53, 63);
+}
+.log {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.log input{
+  background-color: rgb(36, 53, 63);
+
+}
+
+.log input:focus {
+  background-color: rgb(36, 53, 63);
+  box-shadow: none;
+}
+.log h1 {
+  color: rgb(23, 162, 184);
+}
+.btnSub {
+  color: #17a2b8;
+  background-color: transparent;
+  background-image: none;
+  border-color: #17a2b8;
+}
+.btnSub:hover {
+  background-color: #17a2b8;
+  color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+::-webkit-input-placeholder{
+    color: white !important;
+}
